@@ -1,0 +1,1627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Referral Growth System | AccelRCM</title>
+<meta name="description" content="AccelRCM helps healthcare providers build referral relationships with relevant professionals in their target market. A relationship-first service — not a referral-buying program.">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+  :root {
+    --navy: #0D1B2A;
+    --navy-mid: #1A2E45;
+    --navy-light: #243B55;
+    --sky: #2563EB;
+    --sky-light: #3B82F6;
+    --teal: #0D9488;
+    --teal-light: #14B8A6;
+    --slate: #64748B;
+    --slate-light: #94A3B8;
+    --off-white: #F8FAFC;
+    --white: #FFFFFF;
+    --border: #E2E8F0;
+    --border-dark: #CBD5E1;
+    --text-primary: #0F172A;
+    --text-secondary: #475569;
+    --text-muted: #94A3B8;
+    --accent-gold: #D4A72C;
+    --green-ok: #059669;
+    --red-no: #DC2626;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-primary);
+    background: var(--white);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ─── NAV ─────────────────────────────────────────── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(13,27,42,0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    padding: 0 24px;
+    height: 64px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .nav-logo {
+    display: flex; align-items: center; gap: 10px;
+    text-decoration: none;
+  }
+  .nav-logo-mark {
+    width: 40px; height: 40px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    overflow: hidden; background: white;
+  }
+  .nav-logo-mark img { width: 100%; height: 100%; object-fit: contain; }
+  .nav-logo-text { color: white; font-weight: 600; font-size: 15px; }
+  .nav-logo-sub { color: var(--teal-light); font-size: 11px; font-weight: 400; }
+  .nav-links { display: flex; gap: 32px; align-items: center; }
+  .nav-links a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 13.5px; font-weight: 500; transition: color 0.2s; }
+  .nav-links a:hover { color: white; }
+  .nav-cta {
+    background: var(--sky); color: white; border: none; border-radius: 8px;
+    padding: 9px 20px; font-size: 13.5px; font-weight: 600; cursor: pointer;
+    text-decoration: none; transition: background 0.2s, transform 0.15s;
+  }
+  .nav-cta:hover { background: var(--sky-light); transform: translateY(-1px); }
+  @media(max-width:768px){
+    .nav-links { display: none; }
+  }
+
+  /* ─── HERO ─────────────────────────────────────────── */
+  .hero {
+    background: var(--navy);
+    padding: 128px 24px 80px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(ellipse 800px 600px at 70% 30%, rgba(37,99,235,0.12) 0%, transparent 70%),
+                radial-gradient(ellipse 600px 400px at 20% 80%, rgba(13,148,136,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-inner {
+    max-width: 1120px; margin: 0 auto;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center;
+  }
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(37,99,235,0.15); border: 1px solid rgba(37,99,235,0.3);
+    color: #93C5FD; border-radius: 100px; padding: 6px 14px;
+    font-size: 12px; font-weight: 500; letter-spacing: 0.3px;
+    margin-bottom: 24px;
+  }
+  .hero-badge-dot { width: 6px; height: 6px; background: var(--sky-light); border-radius: 50%; }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(36px, 5vw, 52px);
+    font-weight: 600;
+    color: white;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 span { color: var(--teal-light); }
+  .hero-sub {
+    color: rgba(255,255,255,0.65);
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 36px;
+    max-width: 480px;
+  }
+  .hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 40px; }
+  .btn-primary {
+    background: var(--sky); color: white; border: none; border-radius: 10px;
+    padding: 14px 28px; font-size: 15px; font-weight: 600; cursor: pointer;
+    text-decoration: none; transition: all 0.2s; display: inline-block;
+  }
+  .btn-primary:hover { background: var(--sky-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(37,99,235,0.35); }
+  .btn-outline {
+    background: transparent; color: rgba(255,255,255,0.85);
+    border: 1.5px solid rgba(255,255,255,0.25); border-radius: 10px;
+    padding: 14px 28px; font-size: 15px; font-weight: 500; cursor: pointer;
+    text-decoration: none; transition: all 0.2s; display: inline-block;
+  }
+  .btn-outline:hover { border-color: rgba(255,255,255,0.6); color: white; }
+  .hero-trust {
+    display: flex; gap: 20px; flex-wrap: wrap;
+    color: rgba(255,255,255,0.4); font-size: 12px; font-weight: 500;
+  }
+  .hero-trust span { display: flex; align-items: center; gap: 6px; }
+  .hero-trust-dot { width: 4px; height: 4px; background: var(--teal-light); border-radius: 50%; }
+
+  /* ─── REFERRAL DIAGRAM ─────────────────────────────── */
+  .referral-diagram {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.09);
+    border-radius: 20px;
+    padding: 32px 28px;
+    position: relative;
+  }
+  .diagram-title {
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .diagram-node {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 12px;
+    padding: 12px 16px;
+    text-align: center;
+    margin-bottom: 8px;
+    position: relative;
+  }
+  .diagram-node.provider {
+    background: rgba(37,99,235,0.2);
+    border-color: rgba(37,99,235,0.4);
+  }
+  .diagram-node.qualified {
+    background: rgba(13,148,136,0.2);
+    border-color: rgba(13,148,136,0.4);
+  }
+  .diagram-node-label { color: rgba(255,255,255,0.85); font-size: 13px; font-weight: 600; }
+  .diagram-node-sub { color: rgba(255,255,255,0.4); font-size: 11px; margin-top: 3px; }
+  .diagram-professionals {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 6px; margin-bottom: 8px;
+  }
+  .diagram-prof-item {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 8px 10px;
+    color: rgba(255,255,255,0.6);
+    font-size: 11px;
+    text-align: center;
+  }
+  .diagram-arrow {
+    text-align: center;
+    color: rgba(255,255,255,0.2);
+    font-size: 18px;
+    margin: 4px 0;
+    line-height: 1;
+  }
+
+  /* ─── SECTION BASE ─────────────────────────────────── */
+  section { padding: 96px 24px; }
+  .container { max-width: 1120px; margin: 0 auto; }
+  .section-label {
+    color: var(--sky); font-size: 12px; font-weight: 600;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(28px, 4vw, 40px);
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.2;
+    margin-bottom: 16px;
+    letter-spacing: -0.3px;
+  }
+  .section-sub {
+    color: var(--text-secondary);
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 580px;
+  }
+  .section-header { margin-bottom: 60px; }
+
+  /* ─── HOW IT WORKS ─────────────────────────────────── */
+  #how-it-works { background: var(--off-white); }
+
+  .steps-grid {
+    display: grid; gap: 0;
+  }
+  .step-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 0;
+    position: relative;
+  }
+  .step-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 39px; top: 80px; bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--sky) 0%, var(--border) 100%);
+    z-index: 0;
+  }
+  .step-left {
+    display: flex; flex-direction: column; align-items: center;
+    padding-top: 4px;
+    position: relative; z-index: 1;
+  }
+  .step-number-circle {
+    width: 48px; height: 48px;
+    background: var(--navy);
+    border: 3px solid var(--sky);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-size: 14px; font-weight: 700;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 6px rgba(37,99,235,0.1);
+  }
+  .step-right {
+    padding: 0 0 56px 24px;
+  }
+  .step-label { color: var(--sky); font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px; }
+  .step-title { font-size: 20px; font-weight: 700; color: var(--text-primary); margin-bottom: 10px; }
+  .step-text { color: var(--text-secondary); font-size: 15px; line-height: 1.7; margin-bottom: 20px; }
+
+  .tags-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .tag {
+    background: white; border: 1px solid var(--border);
+    border-radius: 100px; padding: 5px 12px;
+    font-size: 12px; font-weight: 500; color: var(--text-secondary);
+  }
+  .tag.blue { background: rgba(37,99,235,0.08); border-color: rgba(37,99,235,0.2); color: var(--sky); }
+
+  .step-expand-btn {
+    background: none; border: none; cursor: pointer;
+    color: var(--sky); font-size: 13px; font-weight: 600;
+    display: flex; align-items: center; gap: 6px;
+    padding: 0; transition: gap 0.2s;
+  }
+  .step-expand-btn:hover { gap: 10px; }
+  .step-expand-btn svg { transition: transform 0.2s; }
+  .step-expand-btn.open svg { transform: rotate(180deg); }
+
+  .step-details {
+    display: none;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 16px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+  .step-details.open { display: block; animation: fadeIn 0.25s ease; }
+
+  /* Conversation visual */
+  .convo-visual { display: flex; flex-direction: column; gap: 12px; margin-top: 16px; }
+  .convo-bubble {
+    max-width: 90%;
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-size: 13.5px;
+    line-height: 1.6;
+  }
+  .convo-bubble.left {
+    background: var(--off-white); border: 1px solid var(--border);
+    color: var(--text-secondary);
+    border-bottom-left-radius: 4px;
+    align-self: flex-start;
+  }
+  .convo-bubble.right {
+    background: rgba(37,99,235,0.08); border: 1px solid rgba(37,99,235,0.15);
+    color: var(--navy-mid);
+    border-bottom-right-radius: 4px;
+    align-self: flex-end;
+  }
+  .convo-sender { font-size: 11px; font-weight: 600; color: var(--text-muted); margin-bottom: 5px; }
+
+  /* Flow path visual */
+  .flow-path {
+    display: flex; align-items: center; gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+  .flow-node {
+    background: white; border: 1.5px solid var(--border);
+    border-radius: 10px; padding: 10px 16px;
+    font-size: 13px; font-weight: 500; color: var(--text-primary);
+    white-space: nowrap;
+  }
+  .flow-node.active {
+    background: rgba(37,99,235,0.08);
+    border-color: var(--sky);
+    color: var(--sky);
+  }
+  .flow-arrow { color: var(--border-dark); font-size: 16px; }
+
+  /* Decision paths */
+  .decision-paths {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+    margin-top: 16px;
+  }
+  .decision-path {
+    border-radius: 12px; padding: 16px 18px;
+  }
+  .decision-path.good {
+    background: rgba(5,150,105,0.08);
+    border: 1.5px solid rgba(5,150,105,0.25);
+  }
+  .decision-path.no {
+    background: rgba(220,38,38,0.06);
+    border: 1.5px solid rgba(220,38,38,0.15);
+  }
+  .decision-icon { font-size: 18px; margin-bottom: 8px; }
+  .decision-title { font-weight: 700; font-size: 13px; margin-bottom: 6px; }
+  .decision-path.good .decision-title { color: var(--green-ok); }
+  .decision-path.no .decision-title { color: var(--red-no); }
+  .decision-result { font-size: 12px; color: var(--text-secondary); }
+
+  .important-note {
+    background: rgba(212,167,44,0.08);
+    border: 1.5px solid rgba(212,167,44,0.25);
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 13.5px;
+    color: var(--text-secondary);
+    margin-top: 16px;
+    display: flex; gap: 10px;
+  }
+  .important-note-icon { color: var(--accent-gold); flex-shrink: 0; margin-top: 1px; }
+
+  /* ─── TIMELINE ─────────────────────────────────────── */
+  #timeline { background: white; }
+  .timeline-visual {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    position: relative;
+    margin-top: 48px;
+  }
+  .timeline-visual::before {
+    content: '';
+    position: absolute;
+    top: 28px; left: 12.5%; right: 12.5%;
+    height: 2px;
+    background: linear-gradient(to right, var(--sky), var(--teal));
+  }
+  .timeline-col {
+    display: flex; flex-direction: column; align-items: center;
+    text-align: center; padding: 0 12px;
+  }
+  .timeline-dot {
+    width: 56px; height: 56px;
+    background: white; border: 3px solid var(--sky);
+    border-radius: 50%; margin-bottom: 20px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+    position: relative; z-index: 1;
+    box-shadow: 0 0 0 8px rgba(37,99,235,0.08);
+  }
+  .timeline-col:nth-child(4) .timeline-dot { border-color: var(--teal); box-shadow: 0 0 0 8px rgba(13,148,136,0.1); }
+  .timeline-week { font-size: 11px; font-weight: 600; color: var(--sky); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; }
+  .timeline-col:nth-child(4) .timeline-week { color: var(--teal); }
+  .timeline-what { font-size: 14px; font-weight: 600; color: var(--text-primary); margin-bottom: 6px; }
+  .timeline-detail { font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
+  .timeline-note {
+    margin-top: 40px;
+    background: var(--off-white);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px 28px;
+    color: var(--text-secondary);
+    font-size: 14.5px;
+    line-height: 1.7;
+  }
+  .timeline-note strong { color: var(--text-primary); }
+
+  /* ─── QUALIFIED SECTION ────────────────────────────── */
+  #qualified { background: var(--off-white); }
+  .qualified-stages {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    position: relative;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  .qualified-stages::before {
+    content: '';
+    position: absolute;
+    top: 44px; left: 12%; right: 12%;
+    height: 2px;
+    background: linear-gradient(to right, #E2E8F0, var(--sky));
+  }
+  .qs-col {
+    display: flex; flex-direction: column; align-items: center;
+    text-align: center; padding: 0 12px;
+  }
+  .qs-circle {
+    width: 88px; height: 88px;
+    border-radius: 50%;
+    background: white; border: 2px solid var(--border);
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    margin-bottom: 16px;
+    position: relative; z-index: 1;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  .qs-circle:hover { border-color: var(--sky); box-shadow: 0 0 0 6px rgba(37,99,235,0.08); }
+  .qs-circle svg { color: var(--sky); margin-bottom: 4px; }
+  .qs-num { font-size: 11px; font-weight: 600; color: var(--text-muted); }
+  .qs-label { font-size: 15px; font-weight: 700; color: var(--text-primary); margin-bottom: 6px; }
+  .qs-detail { font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
+
+  .qualified-statement {
+    text-align: center;
+    background: var(--navy);
+    color: white;
+    border-radius: 20px;
+    padding: 40px 32px;
+  }
+  .qualified-statement-main {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(24px, 3.5vw, 34px);
+    font-weight: 600;
+    margin-bottom: 12px;
+    line-height: 1.25;
+  }
+  .qualified-statement-sub {
+    color: rgba(255,255,255,0.55);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* ─── RELATIONSHIP SECTION ─────────────────────────── */
+  #relationship { background: white; }
+  .relationship-comparison {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
+    margin-top: 48px; margin-bottom: 48px;
+  }
+  .comparison-card {
+    border-radius: 16px;
+    padding: 32px 28px;
+  }
+  .comparison-card.traditional {
+    background: var(--off-white);
+    border: 1.5px solid var(--border);
+  }
+  .comparison-card.our-way {
+    background: var(--navy);
+    border: 1.5px solid rgba(37,99,235,0.3);
+  }
+  .comparison-header {
+    font-size: 14px; font-weight: 700; margin-bottom: 24px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .comparison-card.traditional .comparison-header { color: var(--text-muted); }
+  .comparison-card.our-way .comparison-header { color: white; }
+  .comparison-icon {
+    width: 36px; height: 36px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center; font-size: 16px;
+  }
+  .comparison-card.traditional .comparison-icon { background: rgba(220,38,38,0.1); }
+  .comparison-card.our-way .comparison-icon { background: rgba(37,99,235,0.25); }
+  .comparison-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .comparison-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; }
+  .comparison-card.traditional .comparison-list li { color: var(--text-secondary); }
+  .comparison-card.our-way .comparison-list li { color: rgba(255,255,255,0.8); }
+  .check-icon { flex-shrink: 0; margin-top: 2px; }
+
+  .relationship-statement {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-primary);
+    font-family: 'Playfair Display', serif;
+    padding: 32px;
+    border-top: 1px solid var(--border);
+  }
+  .relationship-statement span { color: var(--sky); }
+
+  /* ─── PRICING ──────────────────────────────────────── */
+  #pricing { background: var(--off-white); }
+  .pricing-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 24px; margin-top: 48px;
+  }
+  .pricing-card {
+    background: white;
+    border: 1.5px solid var(--border);
+    border-radius: 20px;
+    padding: 36px 28px;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .pricing-card:hover { transform: translateY(-4px); box-shadow: 0 20px 60px rgba(0,0,0,0.1); }
+  .pricing-card.featured {
+    background: var(--navy);
+    border-color: var(--sky);
+    transform: translateY(-8px);
+    box-shadow: 0 24px 64px rgba(13,27,42,0.3);
+  }
+  .pricing-card.featured:hover { transform: translateY(-12px); }
+  .pricing-badge {
+    position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+    background: var(--sky); color: white;
+    border-radius: 100px; padding: 5px 16px;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+  .pricing-tier { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px; }
+  .pricing-card.featured .pricing-tier { color: var(--teal-light); }
+  .pricing-card:not(.featured) .pricing-tier { color: var(--slate); }
+  .pricing-price { margin-bottom: 6px; }
+  .pricing-amount { font-size: 48px; font-weight: 700; line-height: 1; }
+  .pricing-card:not(.featured) .pricing-amount { color: var(--text-primary); }
+  .pricing-card.featured .pricing-amount { color: white; }
+  .pricing-partners { font-size: 14px; margin-bottom: 6px; }
+  .pricing-card:not(.featured) .pricing-partners { color: var(--text-secondary); }
+  .pricing-card.featured .pricing-partners { color: rgba(255,255,255,0.7); }
+  .pricing-desc { font-size: 13.5px; line-height: 1.6; margin-bottom: 28px; padding-bottom: 24px; }
+  .pricing-card:not(.featured) .pricing-desc { color: var(--text-secondary); border-bottom: 1px solid var(--border); }
+  .pricing-card.featured .pricing-desc { color: rgba(255,255,255,0.6); border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .pricing-features { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-bottom: 32px; }
+  .pricing-features li { display: flex; align-items: flex-start; gap: 10px; font-size: 13.5px; }
+  .pricing-card:not(.featured) .pricing-features li { color: var(--text-secondary); }
+  .pricing-card.featured .pricing-features li { color: rgba(255,255,255,0.8); }
+  .pricing-check { flex-shrink: 0; color: var(--green-ok); margin-top: 2px; }
+  .pricing-card.featured .pricing-check { color: var(--teal-light); }
+  .btn-pricing {
+    width: 100%; border: none; border-radius: 10px; padding: 14px 24px;
+    font-size: 15px; font-weight: 600; cursor: pointer;
+    text-decoration: none; display: block; text-align: center;
+    transition: all 0.2s;
+  }
+  .pricing-card:not(.featured) .btn-pricing {
+    background: var(--navy); color: white;
+  }
+  .pricing-card:not(.featured) .btn-pricing:hover { background: var(--navy-mid); }
+  .pricing-card.featured .btn-pricing {
+    background: var(--sky); color: white;
+  }
+  .pricing-card.featured .btn-pricing:hover { background: var(--sky-light); }
+  .pricing-footer {
+    text-align: center; margin-top: 32px;
+    color: var(--text-muted); font-size: 13px;
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+  }
+
+  /* ─── FAQ ──────────────────────────────────────────── */
+  #faq { background: white; }
+  .faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 48px; }
+  .faq-item {
+    border: 1.5px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+  .faq-question {
+    background: none; border: none; width: 100%; text-align: left;
+    padding: 20px 24px; cursor: pointer;
+    display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+    font-size: 15px; font-weight: 600; color: var(--text-primary);
+    transition: background 0.15s; line-height: 1.4;
+  }
+  .faq-question:hover { background: var(--off-white); }
+  .faq-question.open { background: var(--off-white); }
+  .faq-icon { flex-shrink: 0; color: var(--sky); transition: transform 0.25s; margin-top: 2px; }
+  .faq-question.open .faq-icon { transform: rotate(45deg); }
+  .faq-answer {
+    display: none; padding: 0 24px 20px;
+    font-size: 14px; color: var(--text-secondary); line-height: 1.7;
+  }
+  .faq-answer.open { display: block; animation: fadeIn 0.2s ease; }
+
+  /* ─── SALES TEAM ───────────────────────────────────── */
+  #sales-team { background: var(--off-white); }
+  .sales-intro {
+    color: var(--text-secondary); font-size: 15.5px; line-height: 1.7;
+    max-width: 680px; margin: 0 auto 40px; text-align: center;
+  }
+  .sales-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
+    max-width: 760px; margin: 0 auto 28px;
+  }
+  .sales-card {
+    background: white; border: 1.5px solid var(--border); border-radius: 16px;
+    padding: 32px 28px; text-align: center;
+  }
+  .sales-avatar {
+    width: 64px; height: 64px; border-radius: 50%;
+    background: var(--navy); color: white;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; font-weight: 700; margin: 0 auto 16px;
+  }
+  .sales-name { font-size: 18px; font-weight: 700; color: var(--text-primary); margin-bottom: 4px; }
+  .sales-title { font-size: 13.5px; color: var(--sky); font-weight: 600; }
+  .sales-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    margin-top: 14px; background: rgba(5,150,105,0.08); border: 1px solid rgba(5,150,105,0.2);
+    color: var(--green-ok); border-radius: 100px; padding: 4px 12px; font-size: 11.5px; font-weight: 600;
+  }
+  .sales-continue-note {
+    text-align: center; max-width: 640px; margin: 0 auto 48px;
+    background: rgba(37,99,235,0.06); border: 1px solid rgba(37,99,235,0.18);
+    border-radius: 12px; padding: 16px 22px; color: var(--navy-mid); font-size: 14px; font-weight: 500; line-height: 1.6;
+  }
+  .billing-note-box {
+    max-width: 760px; margin: 0 auto; background: white;
+    border: 1.5px solid var(--border); border-radius: 16px; padding: 32px 32px;
+  }
+  .billing-note-title { font-size: 18px; font-weight: 700; color: var(--text-primary); margin-bottom: 14px; }
+  .billing-note-text { color: var(--text-secondary); font-size: 14.5px; line-height: 1.7; margin-bottom: 14px; }
+  .billing-note-list { list-style: none; display: flex; flex-direction: column; gap: 8px; margin: 0 0 16px 0; }
+  .billing-note-list li {
+    display: flex; align-items: flex-start; gap: 10px;
+    color: var(--text-secondary); font-size: 14px;
+  }
+  .billing-note-list li svg { flex-shrink: 0; margin-top: 2px; color: var(--sky); }
+  .billing-clarify {
+    font-size: 14px; color: var(--navy-mid); font-style: italic;
+    border-top: 1px solid var(--border); padding-top: 16px; margin-top: 4px;
+  }
+  .verify-box {
+    max-width: 760px; margin: 32px auto 0; background: var(--navy);
+    border-radius: 16px; padding: 28px 32px; color: white;
+  }
+  .verify-row { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; font-size: 14.5px; }
+  .verify-row strong { color: rgba(255,255,255,0.6); font-weight: 500; }
+  .verify-row span.val { font-weight: 700; }
+  .verify-security {
+    margin-top: 16px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.12);
+    font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.7;
+  }
+  @media(max-width:600px){
+    .sales-grid { grid-template-columns: 1fr; }
+    .verify-row { flex-direction: column; gap: 2px; }
+  }
+
+  /* ─── ONBOARDING ───────────────────────────────────── */
+  #onboarding { background: var(--off-white); }
+  .onboarding-steps {
+    display: flex; justify-content: space-between; position: relative;
+    margin-top: 48px; margin-bottom: 40px;
+  }
+  .onboarding-steps::before {
+    content: '';
+    position: absolute;
+    top: 28px; left: 10%; right: 10%;
+    height: 2px;
+    background: linear-gradient(to right, var(--sky), var(--teal));
+  }
+  .ob-step { display: flex; flex-direction: column; align-items: center; text-align: center; flex: 1; padding: 0 8px; }
+  .ob-dot {
+    width: 56px; height: 56px; border-radius: 50%;
+    background: white; border: 2.5px solid var(--sky);
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 14px; position: relative; z-index: 1;
+    font-size: 15px; font-weight: 700; color: var(--sky);
+    box-shadow: 0 0 0 6px rgba(37,99,235,0.08);
+  }
+  .ob-step:nth-child(5) .ob-dot { border-color: var(--teal); color: var(--teal); box-shadow: 0 0 0 6px rgba(13,148,136,0.1); }
+  .ob-label { font-size: 13px; font-weight: 600; color: var(--text-primary); line-height: 1.4; }
+  .onboarding-note {
+    background: white; border: 1px solid var(--border); border-radius: 14px; padding: 28px 32px;
+    color: var(--text-secondary); font-size: 14.5px; line-height: 1.7; margin-bottom: 36px;
+  }
+  .onboarding-note strong { color: var(--text-primary); }
+  .onboarding-ctas { display: flex; gap: 16px; flex-wrap: wrap; }
+  .btn-primary-dark {
+    background: var(--sky); color: white; border: none; border-radius: 10px;
+    padding: 15px 32px; font-size: 15px; font-weight: 600; cursor: pointer;
+    text-decoration: none; transition: all 0.2s; display: inline-block;
+  }
+  .btn-primary-dark:hover { background: var(--sky-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(37,99,235,0.35); }
+  .btn-ghost {
+    background: transparent; color: var(--text-secondary);
+    border: 1.5px solid var(--border); border-radius: 10px;
+    padding: 15px 32px; font-size: 15px; font-weight: 500; cursor: pointer;
+    text-decoration: none; transition: all 0.2s; display: inline-block;
+  }
+  .btn-ghost:hover { border-color: var(--sky); color: var(--sky); }
+
+  /* ─── FINAL CTA ────────────────────────────────────── */
+  #final-cta {
+    background: var(--navy);
+    text-align: center;
+    padding: 96px 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  #final-cta::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(ellipse 700px 500px at 50% 50%, rgba(37,99,235,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  #final-cta h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(28px, 4vw, 44px);
+    font-weight: 600; color: white; line-height: 1.2;
+    margin-bottom: 16px; letter-spacing: -0.3px;
+  }
+  #final-cta p { color: rgba(255,255,255,0.6); font-size: 17px; line-height: 1.7; max-width: 520px; margin: 0 auto 40px; }
+  .final-cta-btn {
+    background: var(--sky); color: white; border: none; border-radius: 12px;
+    padding: 18px 40px; font-size: 17px; font-weight: 700; cursor: pointer;
+    text-decoration: none; transition: all 0.2s; display: inline-block;
+    margin-bottom: 24px;
+  }
+  .final-cta-btn:hover { background: var(--sky-light); transform: translateY(-3px); box-shadow: 0 12px 32px rgba(37,99,235,0.4); }
+  .final-trust {
+    display: flex; gap: 24px; justify-content: center; flex-wrap: wrap;
+    color: rgba(255,255,255,0.35); font-size: 12px; font-weight: 500;
+  }
+  .final-trust span { display: flex; align-items: center; gap: 6px; }
+
+  /* ─── FOOTER ───────────────────────────────────────── */
+  footer {
+    background: #060E18;
+    color: rgba(255,255,255,0.5);
+    padding: 40px 24px;
+  }
+  .footer-inner {
+    max-width: 1120px; margin: 0 auto;
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 20px;
+  }
+  .footer-logo { color: white; font-weight: 700; font-size: 15px; }
+  .footer-logo span { color: var(--teal-light); }
+  .footer-links { display: flex; gap: 24px; }
+  .footer-links a { color: rgba(255,255,255,0.4); text-decoration: none; font-size: 13px; transition: color 0.2s; }
+  .footer-links a:hover { color: rgba(255,255,255,0.8); }
+  .footer-info { font-size: 12.5px; }
+  .footer-info a { color: rgba(255,255,255,0.5); }
+
+  /* ─── STICKY MOBILE CTA ────────────────────────────── */
+  .sticky-mobile-cta {
+    display: none;
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 50;
+    background: var(--navy); border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 12px 20px;
+  }
+  @media(max-width:768px){
+    .sticky-mobile-cta { display: block; }
+  }
+  .sticky-mobile-btn {
+    background: var(--sky); color: white; border: none; border-radius: 10px;
+    padding: 14px; font-size: 15px; font-weight: 600; cursor: pointer;
+    width: 100%; text-decoration: none; display: block; text-align: center;
+  }
+
+  /* ─── ANIMATIONS ───────────────────────────────────── */
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+
+  /* ─── RESPONSIVE ───────────────────────────────────── */
+  @media(max-width:900px){
+    .hero-inner { grid-template-columns: 1fr; gap: 40px; }
+    .referral-diagram { max-width: 400px; }
+    .timeline-visual { grid-template-columns: 1fr 1fr; gap: 32px; }
+    .timeline-visual::before { display: none; }
+    .qualified-stages { grid-template-columns: 1fr 1fr; }
+    .qualified-stages::before { display: none; }
+    .relationship-comparison { grid-template-columns: 1fr; }
+    .pricing-grid { grid-template-columns: 1fr; max-width: 480px; margin-left: auto; margin-right: auto; }
+    .pricing-card.featured { transform: none; }
+    .pricing-card.featured:hover { transform: translateY(-4px); }
+    .faq-grid { grid-template-columns: 1fr; }
+    .onboarding-steps { flex-direction: column; align-items: flex-start; gap: 24px; }
+    .onboarding-steps::before { display: none; }
+    .ob-step { flex-direction: row; text-align: left; gap: 16px; }
+    .ob-dot { flex-shrink: 0; margin-bottom: 0; }
+    .decision-paths { grid-template-columns: 1fr; }
+  }
+  @media(max-width:600px){
+    section { padding: 64px 16px; }
+    .step-item { grid-template-columns: 48px 1fr; }
+    .step-item::after { left: 23px; }
+    .step-number-circle { width: 40px; height: 40px; font-size: 12px; }
+    .flow-path { gap: 6px; }
+    .flow-node { font-size: 11px; padding: 8px 10px; }
+    footer { padding-bottom: 80px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="https://accelrcm.com" class="nav-logo">
+    <div class="nav-logo-mark"><img src="data:image/png;base64,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" alt="AccelRCM logo"></div>
+    <div>
+      <div class="nav-logo-text">AccelRCM</div>
+      <div class="nav-logo-sub">Referral Growth System</div>
+    </div>
+  </a>
+  <div class="nav-links">
+    <a href="#how-it-works">How It Works</a>
+    <a href="#qualified">What Qualifies</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+    <a href="#sales-team">Team</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner container">
+    <div>
+      <div class="hero-badge"><div class="hero-badge-dot"></div>Healthcare Referral Relationship Building</div>
+      <h1>Build Referral Relationships<br><span>in Your Market</span></h1>
+      <p class="hero-sub">We identify relevant referral professionals, start the conversation, and connect interested professionals with your team so you can build the relationship directly.</p>
+      <div class="hero-trust">
+        <span><div class="hero-trust-dot"></div>Relationship-Based</span>
+        <span><div class="hero-trust-dot"></div>One-Time Service Fee</span>
+        <span><div class="hero-trust-dot"></div>No Referral Fees to Partners</span>
+      </div>
+    </div>
+    <div>
+      <div class="referral-diagram">
+        <div class="diagram-title">The Referral Relationship Path</div>
+        <div class="diagram-node provider">
+          <div class="diagram-node-label">Healthcare Provider</div>
+          <div class="diagram-node-sub">You</div>
+        </div>
+        <div class="diagram-arrow">↓</div>
+        <div class="diagram-professionals">
+          <div class="diagram-prof-item">Case Managers</div>
+          <div class="diagram-prof-item">Discharge Planners</div>
+          <div class="diagram-prof-item">Social Workers</div>
+          <div class="diagram-prof-item">Care Coordinators</div>
+        </div>
+        <div class="diagram-arrow">↓</div>
+        <div class="diagram-node">
+          <div class="diagram-node-label">Interested Professionals</div>
+          <div class="diagram-node-sub">Showing genuine interest</div>
+        </div>
+        <div class="diagram-arrow">↓</div>
+        <div class="diagram-node">
+          <div class="diagram-node-label">Provider Meeting</div>
+          <div class="diagram-node-sub">You speak directly with them</div>
+        </div>
+        <div class="diagram-arrow">↓</div>
+        <div class="diagram-node qualified">
+          <div class="diagram-node-label">Qualified Referral Partner</div>
+          <div class="diagram-node-sub">Approved by you</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how-it-works">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Process</div>
+      <h2 class="section-title">How Our Referral Partner Fulfillment Works</h2>
+      <p class="section-sub">A straightforward, relationship-first process from onboarding to qualified referral relationships.</p>
+    </div>
+
+    <div class="steps-grid">
+
+      <!-- STEP 01 -->
+      <div class="step-item reveal">
+        <div class="step-left">
+          <div class="step-number-circle">01</div>
+        </div>
+        <div class="step-right">
+          <div class="step-label">Step 01</div>
+          <div class="step-title">Tell Us About Your Business</div>
+          <div class="step-text">Before fulfillment begins, we collect the information needed to understand your ideal referral market — so every outreach effort is relevant to your services and service area.</div>
+          <div class="tags-row">
+            <span class="tag blue">Service Area</span>
+            <span class="tag blue">ZIP Codes</span>
+            <span class="tag blue">Insurance Accepted</span>
+            <span class="tag blue">Client Types</span>
+            <span class="tag blue">Specialties</span>
+            <span class="tag blue">Services Offered</span>
+            <span class="tag blue">Ideal Referral Source</span>
+          </div>
+          <button class="step-expand-btn" onclick="toggleStep(this)">
+            Why this matters
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="step-details">
+            The more accurately we understand your business and ideal client, the more relevant the professionals we target can be. We don't begin outreach until we have a clear picture of your services, location, population served, and what an ideal referral relationship looks like for you.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 02 -->
+      <div class="step-item reveal">
+        <div class="step-left">
+          <div class="step-number-circle">02</div>
+        </div>
+        <div class="step-right">
+          <div class="step-label">Step 02</div>
+          <div class="step-title">We Find Relevant Professionals</div>
+          <div class="step-text">Our fulfillment team researches your target area and identifies professionals who may be relevant referral sources for your specific services.</div>
+          <div class="tags-row">
+            <span class="tag">Case Managers</span>
+            <span class="tag">Discharge Planners</span>
+            <span class="tag">Social Workers</span>
+            <span class="tag">Care Coordinators</span>
+            <span class="tag">Other Relevant Professionals</span>
+          </div>
+          <button class="step-expand-btn" onclick="toggleStep(this)">
+            About professional targeting
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="step-details">
+            The exact professionals we target depend on your service type, geographic market, and ideal client profile. We focus on finding individuals who are positioned to encounter clients that may benefit from your services — not a generic list.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 03 -->
+      <div class="step-item reveal">
+        <div class="step-left">
+          <div class="step-number-circle">03</div>
+        </div>
+        <div class="step-right">
+          <div class="step-label">Step 03</div>
+          <div class="step-title">We Reach Out</div>
+          <div class="step-text">We contact relevant professionals on your behalf and introduce your services in a professional, relationship-focused manner.</div>
+          <div class="convo-visual">
+            <div class="convo-bubble left">
+              <div class="convo-sender">Professional</div>
+              "Do you work with clients who may need home health or specialized care services?"
+            </div>
+            <div class="convo-bubble right">
+              <div class="convo-sender">Our Team</div>
+              "We work with a provider serving your area and wanted to see whether their services may be relevant to clients you support. Would you be open to learning more?"
+            </div>
+          </div>
+          <button class="step-expand-btn" onclick="toggleStep(this)" style="margin-top:16px">
+            Our outreach approach
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="step-details">
+            Our outreach is professional and direct — not mass-email or aggressive cold calling. We open a genuine conversation about whether your services may be relevant to the clients these professionals support. We represent your practice professionally at every touchpoint.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 04 -->
+      <div class="step-item reveal">
+        <div class="step-left">
+          <div class="step-number-circle">04</div>
+        </div>
+        <div class="step-right">
+          <div class="step-label">Step 04</div>
+          <div class="step-title">Interested Professionals Move Forward</div>
+          <div class="step-text">When a professional shows genuine interest and appears relevant to your services, we advance the opportunity.</div>
+          <div class="flow-path">
+            <div class="flow-node">Potential Professional</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-node active">Interested</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-node active">Relevant</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-node active">Ready to Connect</div>
+          </div>
+          <div class="important-note" style="margin-top:16px">
+            <div class="important-note-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            We do not make the final relationship decision for you. That belongs to you and your team.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 05 -->
+      <div class="step-item reveal">
+        <div class="step-left">
+          <div class="step-number-circle">05</div>
+        </div>
+        <div class="step-right">
+          <div class="step-label">Step 05</div>
+          <div class="step-title">Meeting With You</div>
+          <div class="step-text">Interested professionals are connected with your team so you can speak with them directly.</div>
+          <div class="flow-path">
+            <div class="flow-node active">Our Team</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-node active">Your Team</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-node active">Referral Professional</div>
+          </div>
+          <button class="step-expand-btn" onclick="toggleStep(this)" style="margin-top:16px">
+            What you discuss
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="step-details">
+            You will discuss your services, their needs, the clients they serve, their organization, and whether there is a genuine opportunity to work together. This is your conversation — we facilitate the connection, you build the relationship.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 06 -->
+      <div class="step-item reveal">
+        <div class="step-left">
+          <div class="step-number-circle">06</div>
+        </div>
+        <div class="step-right">
+          <div class="step-label">Step 06</div>
+          <div class="step-title">You Decide If It's a Fit</div>
+          <div class="step-text">The final decision belongs entirely to you. If you approve the professional and both sides agree to build a relationship, they become a qualified referral partner.</div>
+          <div class="decision-paths">
+            <div class="decision-path good">
+              <div class="decision-title">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:-2px;margin-right:6px"><polyline points="20 6 9 17 4 12"/></svg>
+                Good Fit
+              </div>
+              <div class="decision-result">Becomes a Qualified Referral Partner — counts toward your plan</div>
+            </div>
+            <div class="decision-path no">
+              <div class="decision-title">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:-2px;margin-right:6px"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                Not a Fit
+              </div>
+              <div class="decision-result">Rejected contact is not counted toward your plan</div>
+            </div>
+          </div>
+          <div class="important-note">
+            <div class="important-note-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <strong>If you reject a professional we introduce, we do not count that contact toward your qualified-partner plan.</strong> You only count professionals you approve.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 07 -->
+      <div class="step-item reveal">
+        <div class="step-left">
+          <div class="step-number-circle" style="border-color:var(--teal); box-shadow:0 0 0 6px rgba(13,148,136,0.1);">07</div>
+        </div>
+        <div class="step-right">
+          <div class="step-label" style="color:var(--teal)">Step 07</div>
+          <div class="step-title">Build the Relationship</div>
+          <div class="step-text">Once you and the professional agree to work together, the relationship is yours to maintain — for as long as you choose.</div>
+          <div class="tags-row">
+            <span class="tag">No recurring referral fee</span>
+            <span class="tag">Long-term relationship</span>
+            <span class="tag">Your connection to keep</span>
+          </div>
+          <button class="step-expand-btn" onclick="toggleStep(this)" style="color:var(--teal)">
+            What this means for you
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="step-details">
+            There is no recurring referral fee paid to the partner. AccelRCM provides the relationship-building and fulfillment service — the actual professional relationship belongs to you. You can maintain, develop, and grow that relationship on your own terms going forward.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section id="timeline">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Timeline</div>
+      <h2 class="section-title">How Long Does It Take?</h2>
+      <p class="section-sub">Timing depends on your target area, market size, and the available volume of relevant professionals.</p>
+    </div>
+    <div class="timeline-visual reveal">
+      <div class="timeline-col">
+        <div class="timeline-dot">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </div>
+        <div class="timeline-week">Week 1</div>
+        <div class="timeline-what">Onboarding &amp; Market Setup</div>
+        <div class="timeline-detail">Business details collected, target market defined, fulfillment team briefed</div>
+      </div>
+      <div class="timeline-col">
+        <div class="timeline-dot">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+        <div class="timeline-week">Week 2+</div>
+        <div class="timeline-what">Research &amp; Outreach</div>
+        <div class="timeline-detail">Professional research underway, outreach initiated, conversations started</div>
+      </div>
+      <div class="timeline-col">
+        <div class="timeline-dot">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div class="timeline-week">As Early As Week 2</div>
+        <div class="timeline-what">First Qualified Partner</div>
+        <div class="timeline-detail">First provider-approved referral relationship delivered</div>
+      </div>
+      <div class="timeline-col">
+        <div class="timeline-dot">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <div class="timeline-week">Weeks 4–6</div>
+        <div class="timeline-what">Initial Fulfillment Complete</div>
+        <div class="timeline-detail">Full plan typically fulfilled within this window depending on market</div>
+      </div>
+    </div>
+    <div class="timeline-note reveal">
+      <strong>Timeline transparency:</strong> Our goal is to deliver your first qualified referral partner within approximately 2 weeks, with initial fulfillment typically completed within 4–6 weeks. Timing depends on your target area, population, ZIP-code coverage, market size, and the available volume of relevant professionals in your area.
+    </div>
+  </div>
+</section>
+
+<!-- QUALIFIED -->
+<section id="qualified">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Definition</div>
+      <h2 class="section-title">What Do We Mean by "Qualified Referral Partner"?</h2>
+      <p class="section-sub">Understanding exactly what counts toward your plan — before you commit.</p>
+    </div>
+    <div class="qualified-stages reveal">
+      <div class="qs-col">
+        <div class="qs-circle">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 11.08 12 2 2 11.08"/><polyline points="22 11.08 22 22 2 22 2 11.08"/></svg>
+          <div class="qs-num">Stage 1</div>
+        </div>
+        <div class="qs-label">Relevant</div>
+        <div class="qs-detail">The professional is relevant to your service type and target market</div>
+      </div>
+      <div class="qs-col">
+        <div class="qs-circle">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <div class="qs-num">Stage 2</div>
+        </div>
+        <div class="qs-label">Interested</div>
+        <div class="qs-detail">They have shown genuine interest in your services through our outreach</div>
+      </div>
+      <div class="qs-col">
+        <div class="qs-circle">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <div class="qs-num">Stage 3</div>
+        </div>
+        <div class="qs-label">Connected</div>
+        <div class="qs-detail">They are connected with your team for a direct conversation</div>
+      </div>
+      <div class="qs-col">
+        <div class="qs-circle" style="border-color:var(--teal); box-shadow:0 0 0 8px rgba(13,148,136,0.1)">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          <div class="qs-num" style="color:var(--teal)">Stage 4</div>
+        </div>
+        <div class="qs-label">Approved by You</div>
+        <div class="qs-detail">You decide the relationship is a good fit — and it counts</div>
+      </div>
+    </div>
+    <div class="qualified-statement reveal">
+      <div class="qualified-statement-main">Only partners you approve count toward your plan.</div>
+      <div class="qualified-statement-sub">If you reject an introduced professional, that contact is not counted as one of your qualified partners. You maintain full control over who joins your referral network.</div>
+    </div>
+  </div>
+</section>
+
+<!-- RELATIONSHIP COMPARISON -->
+<section id="relationship">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Our Approach</div>
+      <h2 class="section-title">We Don't Sell Referrals.<br>We Build Relationships.</h2>
+      <p class="section-sub">Understanding the difference matters — both for compliance and for building a referral network that lasts.</p>
+    </div>
+    <div class="relationship-comparison reveal">
+      <div class="comparison-card traditional">
+        <div class="comparison-header">
+          <div class="comparison-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </div>
+          Traditional Referral Buying
+        </div>
+        <ul class="comparison-list">
+          <li>
+            <span class="check-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+            Transaction-focused — pay per referral
+          </li>
+          <li>
+            <span class="check-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+            No real professional relationship
+          </li>
+          <li>
+            <span class="check-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+            Provider has limited control
+          </li>
+          <li>
+            <span class="check-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+            Ongoing cost for each referral
+          </li>
+        </ul>
+      </div>
+      <div class="comparison-card our-way">
+        <div class="comparison-header">
+          <div class="comparison-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          The AccelRCM Approach
+        </div>
+        <ul class="comparison-list">
+          <li>
+            <span class="check-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>
+            Identify relevant professionals in your market
+          </li>
+          <li>
+            <span class="check-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>
+            Start the conversation on your behalf
+          </li>
+          <li>
+            <span class="check-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>
+            Introduce your services professionally
+          </li>
+          <li>
+            <span class="check-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>
+            Connect interested professionals with your team
+          </li>
+          <li>
+            <span class="check-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>
+            You build the relationship directly
+          </li>
+          <li>
+            <span class="check-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>
+            You decide who becomes a partner
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="relationship-statement reveal">
+      Our role is to help open the door.<br><span>Your team builds the relationship.</span>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="container">
+    <div class="section-header reveal" style="text-align:center">
+      <div class="section-label" style="text-align:center">Plans</div>
+      <h2 class="section-title" style="margin:0 auto 16px">Choose Your Referral Partner Plan</h2>
+      <p class="section-sub" style="margin:0 auto">Start with the level of relationship-building support that fits your market and growth goals.</p>
+    </div>
+    <div class="pricing-grid reveal">
+
+      <div class="pricing-card">
+        <div class="pricing-tier">Starter</div>
+        <div class="pricing-price">
+          <div class="pricing-amount">$999</div>
+        </div>
+        <div class="pricing-partners">3 Qualified Referral Partners</div>
+        <div class="pricing-desc">A focused starting point for providers testing or expanding a referral market.</div>
+        <ul class="pricing-features">
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Target-market onboarding</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Professional research</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Outreach &amp; relationship initiation</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Interested professional connections</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Provider approval process</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Rejected contacts not counted</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Fulfillment support</li>
+        </ul>
+        
+      </div>
+
+      <div class="pricing-card featured">
+        <div class="pricing-badge">Most Popular</div>
+        <div class="pricing-tier">Growth</div>
+        <div class="pricing-price">
+          <div class="pricing-amount">$1,999</div>
+        </div>
+        <div class="pricing-partners">7 Qualified Referral Partners</div>
+        <div class="pricing-desc">For providers ready to build a stronger network of referral relationships.</div>
+        <ul class="pricing-features">
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Target-market onboarding</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Professional research</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Outreach &amp; relationship initiation</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Interested professional connections</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Provider approval process</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Rejected contacts not counted</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Fulfillment support</li>
+        </ul>
+        
+      </div>
+
+      <div class="pricing-card">
+        <div class="pricing-tier">Scale</div>
+        <div class="pricing-price">
+          <div class="pricing-amount">$2,999</div>
+        </div>
+        <div class="pricing-partners">15 Qualified Referral Partners</div>
+        <div class="pricing-desc">For providers looking to build a larger referral network across their target market.</div>
+        <ul class="pricing-features">
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Target-market onboarding</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Professional research</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Outreach &amp; relationship initiation</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Interested professional connections</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Provider approval process</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Rejected contacts not counted</li>
+          <li><svg class="pricing-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Fulfillment support</li>
+        </ul>
+        
+      </div>
+    </div>
+    <div class="pricing-footer reveal">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="20 6 9 17 4 12"/></svg>
+      One-time service fee. No recurring referral fee to partners.
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="section-header reveal" style="text-align:center">
+      <div class="section-label" style="text-align:center">FAQ</div>
+      <h2 class="section-title" style="margin:0 auto 16px">Common Questions</h2>
+      <p class="section-sub" style="margin:0 auto">Answers to what healthcare providers ask most before getting started.</p>
+    </div>
+    <div class="faq-grid reveal">
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Are referral partners paid?
+          <span class="faq-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">No. The referral professionals are not paid by us or by you for becoming referral partners. Our fee is a one-time service fee for the relationship-building and fulfillment service — not a payment to the professionals themselves.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Do you guarantee patients or referrals?
+          <span class="faq-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">No. We do not guarantee patients, referrals, revenue, or a specific volume of clients. We focus on identifying relevant professionals, initiating conversations, and creating qualified relationship opportunities — the relationship itself is built between you and the professional.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Who decides whether a partner is qualified?
+          <span class="faq-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">You do. A professional must be relevant, show genuine interest, be connected with your team, and receive your approval to count toward your plan. You are in full control of who becomes a partner in your referral network.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          What if I don't want a professional we introduce?
+          <span class="faq-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">That's completely fine. If you reject an introduced professional after speaking with them, we do not count that contact toward your qualified-partner plan. You continue receiving outreach and introductions until your plan's qualified-partner count is fulfilled.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          How long does fulfillment take?
+          <span class="faq-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">Your first qualified partner may arrive as early as 2 weeks. Initial fulfillment typically takes 4–6 weeks depending on your target area, population, market size, and the available volume of relevant professionals. Timing will vary by market.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          How long can I keep a referral relationship?
+          <span class="faq-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">Once you and the professional agree to work together, the relationship is yours. You can maintain it for as long as you choose — there is no recurring referral fee paid to the partner and no obligation to pay us again to keep the relationship active.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          What happens after I pay?
+          <span class="faq-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">After payment, your Success Manager will contact you promptly to collect and confirm the required business details. You will then be onboarded with the fulfillment team and the process begins right away.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Will I have communication with the fulfillment team?
+          <span class="faq-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">Yes. You will stay connected with the fulfillment team throughout the process. This includes weekly progress meetings to review outreach activity, opportunities in progress, and any professionals ready to be connected with your team.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SALES TEAM -->
+<section id="sales-team">
+  <div class="container">
+    <div class="section-header reveal" style="text-align:center">
+      <div class="section-label" style="text-align:center">Your Point of Contact</div>
+      <h2 class="section-title" style="margin:0 auto 16px">Our Referral Partnership Sales Team</h2>
+    </div>
+    <p class="sales-intro reveal">Adam Brown and Michael Carter are our authorized sales representatives for the Referral Partnership &amp; Relationship-Building service.</p>
+
+    <div class="sales-grid reveal">
+      <div class="sales-card">
+        <div class="sales-avatar">AB</div>
+        <div class="sales-name">Adam Brown</div>
+        <div class="sales-title">Referral Partnership Sales Representative</div>
+        <div class="sales-badge">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          Authorized Representative
+        </div>
+      </div>
+      <div class="sales-card">
+        <div class="sales-avatar">MC</div>
+        <div class="sales-name">Michael Carter</div>
+        <div class="sales-title">Referral Partnership Sales Representative</div>
+        <div class="sales-badge">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          Authorized Representative
+        </div>
+      </div>
+    </div>
+
+    <div class="sales-continue-note reveal">
+      Please continue your conversation with the sales representative who originally contacted you.
+    </div>
+
+    <div class="billing-note-box reveal">
+      <div class="billing-note-title">Need Help With Billing or Credentialing?</div>
+      <div class="billing-note-text">Adam Brown and Michael Carter are specifically responsible for the Referral Partnership &amp; Relationship-Building service.</div>
+      <div class="billing-note-text" style="margin-bottom:10px">If you have questions about:</div>
+      <ul class="billing-note-list">
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Billing</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Credentialing</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Provider enrollment</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Insurance enrollment</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Other services handled by our team</li>
+      </ul>
+      <div class="billing-note-text" style="margin-bottom:0">Please let your sales representative know. They can connect you with the appropriate member of our team who can assist you.</div>
+      <div class="billing-clarify">Our referral partnership sales representatives can connect you with the appropriate team member for billing, credentialing, or other service-specific questions.</div>
+    </div>
+
+    <div class="verify-box reveal">
+      <div class="verify-row"><strong>Owner</strong><span class="val">Badar Noman</span></div>
+      <div class="verify-row"><strong>Owner Confirmation Number</strong><span class="val">(229) 595-8608</span></div>
+      <div class="verify-security">
+        For your security, please only communicate and make payments through representatives listed on this page or through officially verified company channels.<br><br>
+        Do not send payment to anyone claiming to represent the company unless their name appears on this page and their identity has been verified through our official company contact information.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ONBOARDING -->
+<section id="onboarding">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Getting Started</div>
+      <h2 class="section-title">Ready to Build Your Referral Network?</h2>
+      <p class="section-sub">From your first click to your first qualified referral partner — here is what the process looks like.</p>
+    </div>
+    <div class="onboarding-steps reveal">
+      <div class="ob-step">
+        <div class="ob-dot">01</div>
+        <div class="ob-label">Choose Your Plan</div>
+      </div>
+      <div class="ob-step">
+        <div class="ob-dot">02</div>
+        <div class="ob-label">Agreement</div>
+      </div>
+      <div class="ob-step">
+        <div class="ob-dot">03</div>
+        <div class="ob-label">One-Time Payment</div>
+      </div>
+      <div class="ob-step">
+        <div class="ob-dot">04</div>
+        <div class="ob-label">Success Manager Onboarding</div>
+      </div>
+      <div class="ob-step">
+        <div class="ob-dot">05</div>
+        <div class="ob-label">Fulfillment Begins</div>
+      </div>
+    </div>
+    <div class="onboarding-note reveal">
+      Once payment is completed, your <strong>Success Manager will reach out right away</strong> to collect the information needed to begin your onboarding. You will remain connected with the fulfillment team throughout the process, including <strong>weekly progress meetings</strong> to stay informed on activity and opportunities.
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section id="final-cta">
+  <div class="container" style="position:relative;z-index:1">
+    <h2>Ready to Move Forward?</h2>
+    <p>Your sales representative will guide you through the agreement, payment process, and onboarding. When you're ready, simply let your sales representative know.</p>
+    <div class="final-trust">
+      <span>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+        Relationship-Based
+      </span>
+      <span>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+        One-Time Service Fee
+      </span>
+      <span>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+        Provider Approved
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">Accel<span>RCM</span></div>
+      <div style="font-size:12px;margin-top:4px">5900 Balcones Drive #11114, Austin, TX 78731</div>
+      <div style="font-size:12px;margin-top:2px">
+        <a href="tel:2295958608" style="color:rgba(255,255,255,0.5)">(229) 595-8608</a> &nbsp;|&nbsp;
+        <a href="mailto:info@accelrcm.com" style="color:rgba(255,255,255,0.5)">info@accelrcm.com</a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="https://accelrcm.com">Home</a>
+      <a href="https://accelrcm.com/about-us/">About</a>
+      <a href="https://accelrcm.com/contact-us/">Contact</a>
+      <a href="https://accelrcm.com/privacy-policy/">Privacy Policy</a>
+    </div>
+    <div class="footer-info">
+      &copy; 2025 AccelRCM. All rights reserved.<br>
+      This is a relationship-building service, not a referral-purchasing program.
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  reveals.forEach(r => observer.observe(r));
+
+  // Step expand
+  function toggleStep(btn) {
+    const details = btn.nextElementSibling;
+    btn.classList.toggle('open');
+    details.classList.toggle('open');
+  }
+
+  // FAQ accordion
+  function toggleFaq(btn) {
+    const answer = btn.nextElementSibling;
+    const wasOpen = btn.classList.contains('open');
+    // Close all
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.classList.remove('open');
+      q.nextElementSibling.classList.remove('open');
+    });
+    if (!wasOpen) {
+      btn.classList.add('open');
+      answer.classList.add('open');
+    }
+  }
+</script>
+</body>
+</html>
